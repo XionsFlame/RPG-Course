@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: health
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: -4307352350410062859, guid: 1c428dfba01cf114cad6404de32c8b48, type: 3}
+      propertyPath: HealthPoints
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 5563264789227237218, guid: 1c428dfba01cf114cad6404de32c8b48, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -21,7 +25,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5563264789227237224, guid: 1c428dfba01cf114cad6404de32c8b48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -30.027834
       objectReference: {fileID: 0}
     - target: {fileID: 5563264789227237224, guid: 1c428dfba01cf114cad6404de32c8b48, type: 3}
       propertyPath: m_LocalPosition.y
@@ -29,7 +33,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5563264789227237224, guid: 1c428dfba01cf114cad6404de32c8b48, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -44.67038
       objectReference: {fileID: 0}
     - target: {fileID: 5563264789227237224, guid: 1c428dfba01cf114cad6404de32c8b48, type: 3}
       propertyPath: m_LocalRotation.w
@@ -71,18 +75,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5563264789227237218, guid: 1c428dfba01cf114cad6404de32c8b48, type: 3}
   m_PrefabInstance: {fileID: 2437277852462907528}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8724860949232961170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7847061185419112426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4acf1d98b2c45504bbd0dbc7749f4af0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!136 &-5214639897714619228
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -96,7 +88,19 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &8724860949232961170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7847061185419112426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4acf1d98b2c45504bbd0dbc7749f4af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6273858226010376863
 PrefabInstance:
   m_ObjectHideFlags: 0
